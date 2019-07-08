@@ -1,0 +1,63 @@
+새로운 파일 추가 git add document.txt
+
+커밋후 코맨트 달기 git commit -m "Add Text File [document.txt]
+
+클론 git clone https://github.com/Dohyung7/Git.git
+
+깃 푸쉬 git push
+
+status에 파일 추가된거 보기 git status
+
+status에 다시 가져오기 git reset
+
+디렉토리 확인 dir
+
+모든 파일 add git add .
+
+수정된 소스 코드 돌리기 git checkout --
+
+커밋 코맨트 수정 git commit --amend
+
+해쉬로 그때 그 파일로 다시 만들기 git reset --hard
+
+먼저 클로해서 저장소 가져오기
+업데이트 하기 add -> commit -> push
+받기 pull
+
+강제로 로컬에 있는파일을 깃에 푸쉬 하기 git push -f
+
+현재 브랜치 확인 git branch
+
+브랜치 이동 git checkout
+
+브랜치를 병합하기 git merge 
+
+브랜치 제거 git branch -d
+
+깃에 어떤 것이 등록 되어 있는지 git remote
+
+원격 저장소 확인 하기 git remote show
+
+원격 저장소 추가 git remote add 이름 저장소URL
+
+원격 저장소 이름 변경 git remote rename 현이름 다른이름
+
+다른 저장소 로그 찍기 git log 저장소이름/브랜치
+병합도 가능
+
+저장소 제거 git remote rm 이름
+
+현재 저장소 보기 git remote -v
+
+git 로그 빠져 나오기 q
+
+라인이 얼마나 추가 되었는지 로그 찍기 git log --stat
+
+브랜치와 병합정보 그래프 출력 graph
+
+어떤 방식으로 커밈ㅅ이 이루어 졌는지 확인 git log -p -갯수
+
+커밋한 내용 한줄로 보기 git log --pretty=oneline
+
+해쉬값 출력 누가했는지 출력 언제했는지 어떤것을 커밋했는지 그래프로 출력 git log --pretty=format:"%h -> %an, %ar : %s" --graph
+
